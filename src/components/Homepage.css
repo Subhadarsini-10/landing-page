@@ -1,0 +1,43 @@
+/* Homepage.css */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-bell {
+  animation: rotate 20s linear infinite; /* Adjust the duration as needed */
+}
+/* Your CSS file (e.g., styles.css) */
+.text-shadow-md {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Homepage.css */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate {
+  animation: rotate 20s linear infinite; /* Adjust the duration as needed */
+}
+.image {
+  background-image: url(./images/Cohorts\ 1.svg);
+}
+.bg {
+  background: radial-gradient(
+    92.19% 89.74% at 32.27% 91.27%,
+    rgba(31, 169, 17, 0.81) 17.21%,
+    #2f15d0 64.58%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-color: black;
+}
